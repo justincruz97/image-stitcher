@@ -21,7 +21,7 @@ error, stitched_img = imageStitcher.stitch(images)
 if not error:    
     print("Stitching complete. Starting transformation.")
     # These are the coordinates of the four corners
-    # of the stitched image, using a mouse click-event
+    # of the stitched image, using mouse click-events (source_point_script.py)
     src_points = np.float32([[3340, 54], [12116, 50], [15629, 6042], [97, 6313]])
     
     # Flatten the image
